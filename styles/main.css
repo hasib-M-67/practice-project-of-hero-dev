@@ -1,0 +1,83 @@
+/* Shared css */
+*{
+    margin: 0;
+}
+body{
+    max-width: 1536px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+.orange-color{
+    color: #FD6E0A;
+}
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FD6E0A;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.btn:hover{
+    background-color: #964002;
+}
+
+
+/* Main css */
+
+
+/* Nav section css */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 81%;
+    margin: 0 230px 0 230px;
+    padding-top: 51px;
+}
+.nav-container h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-items-container{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+.nav-items-container li{
+    list-style: none;
+}
+.nav-items-container li a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/* Hero section css */
+.hero-section-container{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    max-width: 81%;
+    margin: 46px 230px 0 230px;
+}
+.hero-section-text-container h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.hero-section-text-container h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+.hero-section-text-container p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+    padding: 20px 0 30px 0;
+}
+.hero-img-container img{
+    width: 95%;
+}
