@@ -121,3 +121,44 @@ body{
 .info-card p{
     color: #757575;
 }
+
+
+/* skills-section-css */
+#skills-section-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.skills-section-title{
+    text-align: center;
+}
+.skills-section-title h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.skills-section-title p{
+    color: #757575;
+    line-height: 30px;
+    font-size: 18;
+    margin-bottom: 50px;
+}
+.skills-card-container{
+    display: flex;
+    gap: 24px;
+}
+.skills-card{
+    box-shadow: 5px 5px 15px rgb(84, 82, 82);
+    padding: 0 33px 30px 33px;
+    border-radius: 15px;
+}
+.skills-card img{
+    border-radius: 6px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.skills-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
