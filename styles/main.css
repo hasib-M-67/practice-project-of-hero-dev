@@ -162,3 +162,63 @@ body{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+
+
+/* summary section css */
+#summary-section-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.summary-title h1{
+    font-size: 35px;
+    margin: 130px 0 0 0;
+    /* text-align: left; */
+}
+.education-experience-section-container{
+    display: flex;
+    margin-top: 113px;
+    gap: 71px;
+}
+.education-container h1{
+    text-align: left;
+}
+.education-card-container{
+    text-align: left;
+    margin-top: 30px;
+}
+.education-card h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.education-card h5{
+    font-size: 14px;
+    color: #757575;
+}
+.education-card p{
+    font-size: 12px;
+    color: #757575;
+    margin: 20px 0 60px 0;
+}
+
+.experience-container h1{
+    text-align: left;
+}
+.experience-card-container{
+    text-align: left;
+    margin-top: 30px;
+}
+.experience-card h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.experience-card h5{
+    font-size: 14px;
+    color: #757575;
+}
+.experience-card p{
+    font-size: 12px;
+    color: #757575;
+    margin: 20px 0 60px 0;
+}
