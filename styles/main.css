@@ -92,6 +92,21 @@ body{
     width: 485px;
     vertical-align: center;
 }
+.btn-contact{
+    padding: 15px;
+    border: 2px solid #FD6E0A;
+    border-radius: 10px;
+    /* background-color: transparent; */
+    color: #FD6E0A;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    /* border: none; */
+}
+.btn-contact:hover{
+    color: white;
+    background-color: #FD6E0A;
+}
 
 
 /* About Me Section CSS */
@@ -221,4 +236,40 @@ body{
     font-size: 12px;
     color: #757575;
     margin: 20px 0 60px 0;
+}
+
+
+/* footer-section-css */
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 117px;
+    margin-top: 130px;
+}
+.connect-section-container{
+    padding: 130px 0 600px 230px;
+}
+.connect-section-container p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icons-container i{
+    color: #FD6E0A;
+    margin-left: 25px;
+}
+
+.message-section-container{
+    padding: 130px 290px 600px 0;
+}
+
+form input{
+    display: block;
+    margin-top: 24px;
+    border: none;
+    padding: 15px;
+}
+form textarea{
+    margin-top: 24px;
+    border: none;
+    padding: 15px;
 }
